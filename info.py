@@ -44,13 +44,13 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/allmoviesherejoinhindi')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+UMDH0PkrQdxhYjc9')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/puthuputhanpadam3')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'allmoviesherejoinhindi')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+UMDH0PkrQdxhYjc9')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001682109318'))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001559300776'))
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', '-1001610737192'))
 FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+jmFHVWWPnTVkMjM1')
 

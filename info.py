@@ -50,7 +50,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'puthuputhanpadam3')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', ''))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001597799742'))
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', '-1001481638340'))
 FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+viRdpoW60XM4NjVl')
 

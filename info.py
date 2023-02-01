@@ -44,13 +44,13 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/puthanpadam3')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/allmoviesherejoinhindi')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/puthuputhanpadam3')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'puthuputhanpadam3')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'allmoviesherejoinhindi')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001597799742'))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001682109318'))
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', '-1001610737192'))
 FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+jmFHVWWPnTVkMjM1')
 
@@ -72,7 +72,7 @@ MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
 FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1001610737192')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
-PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
+PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "True")), True)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
 # Auto Delete , Filter & Auto Filter
